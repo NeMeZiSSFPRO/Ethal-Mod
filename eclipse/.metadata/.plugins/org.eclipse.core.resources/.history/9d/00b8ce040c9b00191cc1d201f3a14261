@@ -1,0 +1,72 @@
+package com.nemezissfpro.ethalmod.init;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.nemezissfpro.ethalmod.objects.blocks.BlockAngeliteOreEnd;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockAventurineOreEnd;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockAventurineOreNeth;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockAventurineOreOver;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockBeaconType;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockClayType;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockCompressedType;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockGlowstoneType;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockIronType;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockLavaWalker;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockCustomLeaves;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockCustomLogs;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockCustomPlanks;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockPoniumOreEnd;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockPoniumOreNeth;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockPoniumOreOver;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockRedstoneType;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockSaplings;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockStoneType;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockWaterWalker;
+import com.nemezissfpro.ethalmod.objects.blocks.BlockWitherType;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class ModBlocks 
+{
+	public static final List<Block> BLOCKS = new ArrayList<Block>();
+	
+	public static final Block AMBER_BLOCK = new BlockBeaconType("amber_block", Material.IRON);
+	public static final Block BINDED_STONE_BLOCK = new BlockStoneType("binded_stone_block", Material.ROCK);
+	public static final Block BLOOD_BLOCK = new BlockIronType("blood_block", Material.IRON);
+	public static final Block COMPRESSED_STONE_BLOCK = new BlockCompressedType("compressed_stone_block", Material.ROCK);
+	public static final Block FELRIN_BLOCK = new BlockIronType("felrin_block", Material.IRON);
+	public static final Block FLINT_BLOCK = new BlockStoneType("flint_block", Material.ROCK);
+	public static final Block LUNAR_BLOCK = new BlockRedstoneType("lunar_block", Material.IRON);
+	public static final Block PONIUM_BLOCK = new BlockGlowstoneType("ponium_block", Material.GLASS);
+	public static final Block SOLAR_BLOCK = new BlockGlowstoneType("solar_block", Material.GLASS);
+	public static final Block SOULITE_BLOCK = new BlockIronType("soulite_block", Material.IRON);
+	public static final Block WITHER_BRICK_BLOCK = new BlockWitherType("wither_brick_block", Material.ROCK);
+	public static final Block WITHER_CLAY_BLOCK = new BlockClayType("wither_clay_block", Material.CLAY);
+	public static final Block LAVA_WALKER_BLOCK = new BlockLavaWalker("lava_walker_block", Material.ROCK);
+	public static final Block WATER_WALKER_BLOCK = new BlockWaterWalker("water_walker_block", Material.ROCK);
+	
+	
+	
+	//Ores Overworld
+	public static final Block OBSIDIAN_AVENTURINE_ORE = new BlockAventurineOreOver("obsidian_aventurine_ore", Material.ROCK);
+	public static final Block OBSIDIAN_PONIUM_ORE = new BlockPoniumOreOver("obsidian_ponium_ore", Material.ROCK);
+	
+	//Ores Nether
+	public static final Block NETHERRACK_AVENTURINE_ORE = new BlockAventurineOreNeth("netherrack_aventurine_ore", Material.ROCK);
+	public static final Block NETHERRACK_PONIUM_ORE = new BlockPoniumOreNeth("netherrack_ponium_ore", Material.ROCK);
+	
+	//Ores End
+	public static final Block ANGELITE_ORE = new BlockAngeliteOreEnd("angelite_ore", Material.ROCK);
+	public static final Block ENDSTONE_AVENTURINE_ORE = new BlockAventurineOreEnd("endstone_aventurine_ore", Material.ROCK);
+	public static final Block ENDSTONE_PONIUM_ORE = new BlockPoniumOreEnd("endstone_ponium_ore", Material.ROCK);
+	
+	
+	//Trees
+	public static final Block LOG = new BlockCustomLogs("logs");
+	public static final Block LEAVES = new BlockCustomLeaves("leaves");
+	public static final Block SAPLING = new BlockSaplings("sapling");
+	public static final Block PLANKS = new BlockCustomPlanks("planks");
+
+}

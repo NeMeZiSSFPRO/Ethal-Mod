@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "ethalmod:blocks/wither_clay_block"
+   }
+}

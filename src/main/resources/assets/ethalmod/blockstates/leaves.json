@@ -1,0 +1,14 @@
+{
+    "variants":
+    {
+        "check_decay=true,decayable=true,variant=resin": { "model": "ethalmod:leaves_resin" },
+        "check_decay=true,decayable=false,variant=resin": { "model": "ethalmod:leaves_resin" },
+        "check_decay=false,decayable=true,variant=resin": { "model": "ethalmod:leaves_resin" },
+        "check_decay=false,decayable=false,variant=resin": { "model": "ethalmod:leaves_resin" },
+        
+        "check_decay=true,decayable=true,variant=elven": { "model": "ethalmod:leaves_elven" },
+        "check_decay=true,decayable=false,variant=elven": { "model": "ethalmod:leaves_elven" },
+        "check_decay=false,decayable=true,variant=elven": { "model": "ethalmod:leaves_elven" },
+        "check_decay=false,decayable=false,variant=elven": { "model": "ethalmod:leaves_elven" }
+    }
+}

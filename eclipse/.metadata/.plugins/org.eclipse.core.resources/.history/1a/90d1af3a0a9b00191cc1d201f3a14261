@@ -1,0 +1,7 @@
+{
+   "parent": "block/cube_column",
+   "textures": {
+       "end": "ethalmod:blocks/resin_top",
+       "side": "ethalmod:blocks/resin_log"
+   }
+}

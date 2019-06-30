@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "variant=resin": { "model": "ethalmod:planks_resin" },
+        "variant=elven": { "model": "ethalmod:planks_elven" }
+    }
+}

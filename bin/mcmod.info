@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ethalmod",
+  "name": "Ethal Mod",
+  "description": "Here and there something new, and every month almost kinda expanding this knowledge of the Ethal race.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["NeMeZiSSFPRO, FoxAliveScotty"],
+  "credits": "Finally i don't need to use Mcreator to making mods :D",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,70 @@
+package com.nemezissfpro.ethalmod.objects.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.properties.PropertyEnum;
+import net.minecraft.util.IStringSerializable;
+
+public class BlockCustomPlanks extends Block
+{
+	public static final PropertyEnum<BlockCustomPlanks.EnumType> VARIANT = PropertyEnum.<BlockCustomPlanks.EnumType>create("variant", BlockCustomPlanks.EnumType.class);
+	
+	public BlockCustomPlanks(String name)
+	{
+		setUnlocalizedName(name);
+		setRegistryName(name);
+	}
+	
+	public static enum EnumType implements IStringSerializable
+	{
+		private static final BlockCustomPlanks.EnumType[] META_LOOKUP = new BlockCustomPlanks.EnumType[values().length]
+		private final int meta;
+		private final String name, unlocalizedName;
+		
+		private EnumType(int meta, String name) 
+		{
+			this(meta, name, name);
+		}
+		
+		private EnumType(int meta, String name, String unlocalizedName) 
+		{
+			this.meta = meta;
+			this.name = name;
+			this.unlocalizedName = unlocalizedName;
+		}
+
+		@Override
+		public String getName() 
+		{
+			return this.name;
+		}
+		
+		public int getMeta()
+		{
+			return this.meta;
+		}
+		
+		public String getUnlocalizedName()
+		{
+			return this.unlocalizedName;
+		}
+		
+		@Override
+		public String toString()
+		{
+			return this.name;
+		}
+		
+		public static BlockCustomPlanks.EnumType byMetada(int meta)
+		{
+			return META_LOOKUP[meta];
+		}
+		
+		static
+		{
+			for(BlockCustomPlanks.EnumType blockcustomplanks$enumtype : values())
+			{
+				META_LOOKUP[blockcustomplanks$enumtype.getMeta()] = blockcustomplanks$enumtype;
+			}
+		}
+	}
+}

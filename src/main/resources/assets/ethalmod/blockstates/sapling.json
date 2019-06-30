@@ -1,0 +1,10 @@
+{
+    "variants":
+    {
+        "stage=0,variant=resin": { "model": "ethalmod:sapling_resin" },
+        "stage=1,variant=resin": { "model": "ethalmod:sapling_resin" },
+        
+        "stage=0,variant=elven": { "model": "ethalmod:sapling_elven" },
+        "stage=1,variant=elven": { "model": "ethalmod:sapling_elven" }
+    }
+}

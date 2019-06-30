@@ -1,0 +1,6 @@
+{
+   "parent": "block/leaves",
+   "textures": {
+       "all": "ethalmod:blocks/leaves_elven"
+   }
+}

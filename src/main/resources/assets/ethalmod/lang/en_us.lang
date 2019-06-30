@@ -1,0 +1,174 @@
+
+//Items
+item.air_star.name=Air Star
+item.blaze_stick.name=Blaze Stick
+item.blood_eye.name=Blood Eye
+item.blood_drop.name=Blood Drop
+item.blood_extractor.name=Blood Extractor
+item.blood_ingot.name=Blood Ingot
+item.blood_ingot_alloy.name=Blood Ingot Alloy
+item.corrupted_syringe.name=Corrupted Syringe
+item.crushed_ender_pearl.name=Crushed Ender Pearl
+item.crushed_nether_star.name=Crushed Nether Star
+item.crushed_obsidian.name=Crushed Obsidian
+item.crusher_base_hammer.name=Crusher Base Hammer
+item.diamond_dust.name=Diamond Dust
+item.earth_star.name=Earth Star
+item.emerald_dust.name=Emerald Dust
+item.empty_syringe.name=Empty Syringe
+item.ender_mortar_and_pestle.name=Ender Mortar and Pestle
+item.ender_obsidian_alloy.name=Ender Obsidian Alloy
+item.ender_obsidian_ingot.name=Ender Obsidian Ingot
+item.ender_obsidian_hammer.name=Ender Obsidian Hammer
+item.ender_pearl_dust.name=Ender Pearl Dust
+item.ender_star.name=Ender Star
+item.ender_stick.name=Ender Stick
+item.equilibrium_star.name=Equilibrium Star
+item.felrin_dust.name=Felrin Dust
+item.felrin_ingot.name=Felrin Ingot
+item.felrin_nugget.name=Felrin Nugget
+item.fire_star.name=Fire Star
+item.flint_ingot.name=Flint Ingot
+item.granite_mortar_and_pestle.name=Granite Mortar and Pestle
+item.granite_stick.name=Granite Stick
+item.iron_stick.name=Iron Stick
+item.lunar_gem.name=Lunar Gem
+item.nether_star_dust.name=Nether Star Dust
+item.obsidian_dust.name=Obsidian Dust
+item.solar_gem.name=Solar Gem
+item.soulite_ingot.name=Soulite Ingot
+item.soulite_stick.name=Soulite Stick
+item.sticky_wither_meal.name=Sticky Wither Meal
+item.stone_mortar_and_pestle.name=Stone Mortar and Pestle
+item.water_star.name=Water Star
+item.wither_brick_ingot.name=Wither Brick Ingot
+item.wither_clay.name=Wither Clay
+item.wither_skull_dust.name=Wither Skull Dust
+item.wither_stick.name=Wither Stick
+item.withered_bone.name=Withered Bone
+item.withered_star_dust.name=Withered Star Dust
+item.wood_stick.name=Wood Stick
+item.ponium_gem.name=Ponium Gem
+item.angelite_gem.name=Angelite Gem
+item.resin.name=Resin
+item.amber_gem.name=Amber Gem
+item.aventurine_gem.name=Aventurine Gem
+
+
+
+//Blocks
+tile.blood_block.name=Blood Block
+tile.binded_stone_block.name=Binded Stone Block
+tile.compressed_stone_block.name=Compressed Stone Block
+tile.felrin_block.name=Felrin Block
+tile.flint_block.name=Flint Block
+tile.lunar_block.name=Lunar Block
+tile.solar_block.name=Solar Block
+tile.soulite_block.name=Soulite Block
+tile.wither_brick_block.name=Wither Brick Block
+tile.wither_clay_block.name=Wither Clay Block
+tile.ponium_block.name=Ponium Block
+tile.amber_block.name=Amber Block
+tile.lava_walker_block.name=Lava Walker Block
+tile.water_walker_block.name=Water Walker Block
+
+//Tree
+tile.planks_resin.name=Resin Planks
+tile.logs_resin.name=Resin Log
+tile.leaves_resin.name=Resin Leaves
+tile.sapling_resin.name=Resin Sapling
+
+tile.planks_elven.name=Elven Planks
+tile.logs_elven.name=Elven Log
+tile.leaves_elven.name=Elven Leaves
+tile.sapling_elven.name=Elven Sapling
+
+//Tools
+item.felrin_blade.name=Felrin Blade
+item.felrin_shovel.name=Felrin Shovel
+item.felrin_pickaxe.name=Felrin Pickaxe
+item.felrin_axe.name=Felrin Axe
+item.felrin_hoe.name=Felrin Hoe
+item.soulite_hoe.name=Soulite Hoe
+item.soulite_pickaxe.name=Soulite Pickaxe
+item.soulite_axe.name=Soulite Axe
+item.soulite_shovel.name=Soulite Shovel
+item.soulite_blade.name=Soulite Blade
+item.golden_blade.name=Golden Blade
+item.diamond_blade.name=Diamond Blade
+item.iron_blade.name=Iron Blade
+item.stone_blade.name=Stone Blade
+item.skull_blade.name=Skull Blade
+item.wood_blade.name=Wood Blade
+item.blood_blade.name=Blood Blade
+item.dragon_blade.name=Dragon Blade
+item.eclipse_blade.name=Eclipse Blade
+item.enchanted_ender_blade.name=Enchanted Ender Blade
+item.ender_blade.name=Ender Blade
+item.lunar_blade.name=Lunar Blade
+item.solar_blade.name=Solar Blade
+item.quartz_blade.name=Quartz Blade
+item.zombie_arm.name=Zombie Arm
+item.wither_blade.name=Wither Blade
+
+
+
+//Staff
+item.wither_staff.name=Wither Staff
+
+
+//Armors
+item.blood_helmet.name=Blood Helmet
+item.blood_chestplate.name=Blood Chestplate
+item.blood_leggings.name=Blood Leggings
+item.blood_boots.name=Blood Boots
+
+item.felrin_helmet.name=Felrin Helmet
+item.felrin_chestplate.name=Felrin Chestplate
+item.felrin_leggings.name=Felrin Leggings
+item.felrin_boots.name=Felrin Boots
+item.enchanted_felrin_boots.name=Enchanted Felrin Boots
+
+item.soulite_helmet.name=Soulite Helmet
+item.soulite_chestplate.name=Soulite Chestplate
+item.soulite_leggings.name=Soulite Leggings
+item.soulite_boots.name=Soulite Boots
+item.enchanted_soulite_boots.name=Enchanted Soulite Boots
+
+item.flint_helmet.name=Flint Helmet
+item.flint_chestplate.name=Flint Chestplate
+item.flint_leggings.name=Flint Leggings
+item.flint_boots.name=Flint Boots
+
+item.bone_helmet.name=Bone Helmet
+item.bone_chestplate.name=Bone Chestplate
+item.bone_leggings.name=Bone Leggings
+item.bone_boots.name=Bone Boots
+
+item.wither_helmet.name=Wither Helmet
+item.wither_chestplate.name=Wither Chestplate
+item.wither_leggings.name=Wither Leggings
+item.wither_boots.name=Wither Boots
+
+
+
+
+//Ores
+tile.angelite_ore.name=Angelite Ore
+tile.obsidian_aventurine_ore.name=Aventurine Obsidian Ore
+tile.obsidian_ponium_ore.name=Ponium Obsidian Ore
+tile.netherrack_aventurine_ore.name=Aventurine Netherrack Ore
+tile.netherrack_ponium_ore.name=Ponium Netherrack Ore
+tile.endstone_aventurine_ore.name=Aventurine Endstone Ore
+tile.endstone_ponium_ore.name=Ponium Endstone Ore
+
+//Tabs
+itemGroup.ethalitems=Ethal Items
+itemGroup.ethalblocks=Ethal Blocks
+itemGroup.ethaltools=Ethal Tools
+
+
+//Enchantments
+enchantment.anti_wither_effect=Anti Wither Effect
+enchantment.lava_walking=Lava Walking
+enchantment.water_walker=Water Walker

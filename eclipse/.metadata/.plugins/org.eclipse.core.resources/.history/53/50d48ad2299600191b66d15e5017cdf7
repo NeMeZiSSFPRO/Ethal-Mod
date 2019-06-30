@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "axis=y":  { "model": "ethalmod:resin_log" },
+        "axis=z":   { "model": "ethalmod:resin_log", "x": 90 },
+        "axis=x":   { "model": "ethalmod:resin_plog", "x": 90, "y": 90 },
+        "axis=none": { "model": "ethalmod:resin_bark" }
+    }
+}

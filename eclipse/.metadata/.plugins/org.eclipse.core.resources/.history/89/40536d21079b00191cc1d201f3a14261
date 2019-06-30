@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "check_decay=true,decayable=true": { "model": "ethalmod:resin_leaves" },
+        "check_decay=true,decayable=false": { "model": "ethalmod:resin_leaves" },
+        "check_decay=false,decayable=true": { "model": "ethalmod:resin_leaves" },
+        "check_decay=false,decayable=false": { "model": "ethalmod:resin_leaves" }
+    }
+}

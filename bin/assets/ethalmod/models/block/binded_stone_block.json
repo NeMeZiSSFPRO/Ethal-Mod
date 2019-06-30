@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "ethalmod:blocks/binded_stone_block"
+   }
+}

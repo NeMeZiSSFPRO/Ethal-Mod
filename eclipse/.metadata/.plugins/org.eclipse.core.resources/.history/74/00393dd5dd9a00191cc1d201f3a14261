@@ -1,0 +1,91 @@
+package com.nemezissfpro.ethalmod.objects.blocks;
+
+import com.nemezissfpro.ethalmod.init.ModBlocks;
+import com.nemezissfpro.ethalmod.init.ModItems;
+import com.nemezissfpro.ethalmod.util.handlers.EnumHandler;
+import com.nemezissfpro.ethalmod.util.interfaces.IMetaName;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.properties.PropertyEnum;
+import net.minecraft.block.state.BlockStateContainer;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.IStringSerializable;
+import net.minecraft.util.NonNullList;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.world.World;
+
+public class BlockCustomPlanks extends Block implements IMetaName
+{
+	public static final PropertyEnum<EnumHandler.EnumType> VARIANT = PropertyEnum.<EnumHandler.EnumType>create("variant", EnumHandler.EnumType.class);
+	
+	private String name;
+	
+	public BlockCustomPlanks(String name)
+	{
+		super(Material.WOOD);
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		setSoundType(SoundType.WOOD);
+		this.setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, EnumHandler.EnumType.RESIN));
+		
+		this.name = name;
+		
+		ModBlocks.BLOCKS.add(this);
+		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+	}
+	
+	@Override
+	public int damageDropped(IBlockState state) 
+	{
+		return((EnumHandler.EnumType)state.getValue(VARIANT)).getMeta();
+	}
+	
+	@Override
+	public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items) 
+	{
+		for(EnumHandler.EnumType blockcustomplanks$enumtype : EnumHandler.EnumType.values())
+		{
+			items.add(new ItemStack(this, 1, blockcustomplanks$enumtype.getMeta()));
+		}
+	}
+	
+	@Override
+	public IBlockState getStateFromMeta(int meta) 
+	{
+		return this.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.byMetadata(meta));
+	}
+	
+	@Override
+	public int getMetaFromState(IBlockState state) 
+	{
+		return ((EnumHandler.EnumType)state.getValue(VARIANT)).getMeta();
+	}
+
+	@Override
+	public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos,
+			EntityPlayer player) 
+	{
+		return new ItemStack(Item.getItemFromBlock(this), 1, (int)(getMetaFromState(world.getBlockState(pos))));
+	}
+	@Override
+	protected BlockStateContainer createBlockState() 
+	{
+		return new BlockStateContainer(this, new IProperty[] {VARIANT});
+	}
+
+	
+	@Override
+	public String getSpecialName(ItemStack stack) 
+	{
+		return EnumHandler.EnumType.values()[stack.getCount()].getName();
+	}
+}

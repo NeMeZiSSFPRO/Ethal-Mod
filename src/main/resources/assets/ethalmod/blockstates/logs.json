@@ -1,0 +1,14 @@
+{
+    "variants":
+    {
+        "axis=y,variant=resin":  { "model": "ethalmod:logs_resin" },
+        "axis=z,variant=resin":   { "model": "ethalmod:logs_resin", "x": 90 },
+        "axis=x,variant=resin":   { "model": "ethalmod:logs_resin", "x": 90, "y": 90 },
+        "axis=none,variant=resin": { "model": "ethalmod:logs_resin" },
+        
+        "axis=y,variant=elven":  { "model": "ethalmod:logs_elven" },
+        "axis=z,variant=elven":   { "model": "ethalmod:logs_elven", "x": 90 },
+        "axis=x,variant=elven":   { "model": "ethalmod:logs_elven", "x": 90, "y": 90 },
+        "axis=none,variant=elven": { "model": "ethalmod:logs_elven" }
+    }
+}

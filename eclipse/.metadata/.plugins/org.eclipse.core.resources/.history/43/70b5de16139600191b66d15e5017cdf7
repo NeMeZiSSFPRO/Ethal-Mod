@@ -1,0 +1,5 @@
+package com.nemezissfpro.ethalmod.objects.blocks;
+
+public class CustomeBlockLog {
+
+}

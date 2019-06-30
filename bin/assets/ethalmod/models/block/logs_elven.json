@@ -1,0 +1,7 @@
+{
+   "parent": "block/cube_column",
+   "textures": {
+       "end": "ethalmod:blocks/logs_elven_top",
+       "side": "ethalmod:blocks/logs_elven"
+   }
+}

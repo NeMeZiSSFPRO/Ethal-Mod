@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "ethalmod:lava_walker_block"
+    },
+    "age=1": {
+      "model": "ethalmod:lava_walker_block_1"
+    },
+    "age=2": {
+      "model": "ethalmod:lava_walker_block_2"
+    },
+    "age=3": {
+      "model": "ethalmod:lava_walker_block_3"
+    }
+  }
+}

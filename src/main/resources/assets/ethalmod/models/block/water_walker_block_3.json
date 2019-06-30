@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "ethalmod:blocks/water_walker_block_3"
+   }
+}

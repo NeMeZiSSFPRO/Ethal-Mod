@@ -1,0 +1,5 @@
+package com.nemezissfpro.ethalmod.objects.blocks.world.gen;
+
+public class WorldGenResinTree {
+
+}
